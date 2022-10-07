@@ -12,10 +12,10 @@ namespace Shapes
         {
             Random randomShape = new Random();
             Random randomSize = new Random();
-            float randomX = (float)Math.Round(randomSize.NextDouble() * 10, 1);
-            float randomY = (float)Math.Round(randomSize.NextDouble() * 10, 1);
-            float randomZ = (float)Math.Round(randomSize.NextDouble() * 10, 1);
-            float randomWidth = (float)Math.Round(randomSize.NextDouble() * 10, 1);
+            float randomX = randomSize.NextSingle() * 10;
+            float randomY = randomSize.NextSingle() * 10;
+            float randomZ = randomSize.NextSingle() * 10;
+            float randomWidth = randomSize.NextSingle() * 10;
             float randomInputRadie = randomSize.Next(1, 15);
 
             Shapes form = (Shapes)randomShape.Next(0, 6);

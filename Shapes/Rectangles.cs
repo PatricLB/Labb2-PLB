@@ -50,11 +50,11 @@ namespace Shapes
 
         public override string ToString()
         {
-            string returneraRektangel = $"rectangle @({_center.X}, {_center.Y}): w = {this._size.X} h = {this._size.Y}";
+            string returneraRektangel = $"rectangle @({_center.X:f2}, {_center.Y:f2}): w = {this._size.X:f2} h = {this._size.Y:f2}";
 
             if (isSquare)
             {
-                returneraRektangel = $"square @({_center.X}, {_center.Y}): w = {this._size.X} h = {this._size.Y}";
+                returneraRektangel = $"square @({_center.X:f2}, {_center.Y:f2}): w = {this._size.X:f2} h = {this._size.Y:f2}";
             }
 
             return returneraRektangel;

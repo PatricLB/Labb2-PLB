@@ -57,11 +57,11 @@ namespace Shapes
 
         public override string ToString()
         {
-            string returneraCuboid = $"cubiod @({_center}): w = {_side.X}, H = {_side.Y}, l = {_side.Z}";
+            string returneraCuboid = $"cubiod @({_center:f2}): w = {_side.X:f2}, H = {_side.Y:f2}, l = {_side.Z:f2}";
 
             if (isCube)
             {
-                returneraCuboid = $"cube @({_center}): w = {_side.X}, H = {_side.Y}, l = {_side.Z}";
+                returneraCuboid = $"cube @({_center:f2}): w = {_side.X:f2}, H = {_side.Y:f2}, l = {_side.Z:f2}";
             }
 
             return returneraCuboid;

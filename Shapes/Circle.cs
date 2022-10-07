@@ -32,7 +32,7 @@ namespace Shapes
 
         public override string ToString()
         {
-            return $"circle @({_center.X}, {_center.Y}): r = {this._radius}";
+            return $"circle @({_center.X:f2}, {_center.Y:f2}): r = {this._radius:f2}";
         }
 
     }

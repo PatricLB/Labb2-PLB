@@ -32,7 +32,7 @@ namespace Shapes
         }
         public override string ToString()
         {
-            return $"sphere @({_center}): r = {_radius}"; ;
+            return $"sphere @({_center:f2}): r = {_radius:f2}"; ;
         }
 
     }
