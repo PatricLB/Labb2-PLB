@@ -53,6 +53,7 @@ namespace Shapes
 
             this.isCube = true;
             _area = 4 * width;
+
         }
 
         public override string ToString()
